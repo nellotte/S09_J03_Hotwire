@@ -1,0 +1,6 @@
+<div class="selected-email-content">
+  <h2 class="fw-bold"><%= email.try(:object) %></h2>
+  <p><%= email.try(:body) %></p>
+  <button class="btn btn-danger">Supprimer</button>
+  <button class="btn btn-warning">Marquer comme non-lu</button>
+</div>
